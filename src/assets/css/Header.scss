@@ -1,0 +1,66 @@
+.header {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  &__center {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    &__logo {
+      border: 1px solid orange;
+      display: flex;
+      flex-direction: row;
+      margin: 30px 100px;
+
+      &__icon {
+        border: 1px solid pink;
+        width: 40px;
+        height: 40px;
+      }
+
+      &__brand {
+        border: 1px solid green;
+        padding-left: 10px;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &__menu {
+      border: 1px solid aqua;
+      width: 100%;
+      display: flex;
+      justify-content: right;
+
+      &__ul {
+        border: 1px solid yellowgreen;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        //margin-top: 40px;
+        width: 100%;
+        margin-right: 100px;
+        align-items: center;
+        text-decoration: none;
+
+        li {
+          padding-left: 20px;
+          text-decoration: none;
+
+          a {
+            text-decoration: none;
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}
