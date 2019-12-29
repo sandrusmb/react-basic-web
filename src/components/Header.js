@@ -15,7 +15,7 @@ class Header extends React.Component {
               alt="Logotipo"
             />
             <span className="header__center__logo__brand">
-              <strong>Curso</strong>React
+              <strong>Aprendiendo</strong>React
             </span>
           </div>
 

@@ -1,0 +1,38 @@
+.slider {
+  margin: 0px;
+  height: 300px;
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin: 0px;
+    color: white;
+  }
+
+  &__button {
+    //border: 1px solid red;
+    background: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    padding: 0px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+      color: grey;
+      text-transform: uppercase;
+    }
+  }
+}
