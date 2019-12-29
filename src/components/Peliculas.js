@@ -1,9 +1,14 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import MensajeEstatico from "./MensajeEstatico";
 
 class Peliculas extends React.Component {
   render() {
-    return <div>Soy el componente Peliculas</div>;
+    return (
+      <div id="peliculas">
+        <p>Soy el componente peliculas</p>
+        <MensajeEstatico />
+      </div>
+    );
   }
 }
 
