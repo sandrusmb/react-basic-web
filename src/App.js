@@ -2,11 +2,13 @@ import React from "react";
 import "./assets/css/App.css";
 
 // Importar componentes
-import MiComponente from "./components/MiComponente";
-import Peliculas from "./components/Peliculas";
+/* import MiComponente from "./components/MiComponente";
+import Peliculas from "./components/Peliculas"; */
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Section from "./components/Section";
 
 function App() {
   return (
@@ -15,11 +17,14 @@ function App() {
         <Header />
         <Slider />
         <div className="container">
-          <div>Este componente es para la sección de la izquierda</div>
+          <div>
+            <Section />
+            {/* <MiComponente />
+            <Peliculas /> */}
+          </div>
           <Sidebar />
         </div>
-        <MiComponente />
-        <Peliculas />
+        <Footer />
       </section>
     </div>
   );
