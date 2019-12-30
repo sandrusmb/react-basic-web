@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo192.png";
 
 class MiComponente extends React.Component {
   render() {
@@ -9,14 +10,16 @@ class MiComponente extends React.Component {
     };
 
     return (
-      <div>
-        <h1>{"Receta: " + receta.nombre}</h1>
+      <div className="">
+        <img src={logo} alt="foto blog" />
+
+        {/* <h1>{"Receta: " + receta.nombre}</h1>
         <h2>{"Calorías: " + receta.calorias}</h2>
         <ul>
           {receta.ingredientes.map((elemento, i) => {
             return <li key={i}>{elemento}</li>;
           })}
-        </ul>
+        </ul> */}
       </div>
     );
   }
