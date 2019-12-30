@@ -14,7 +14,10 @@ function App() {
       <section className="componentes">
         <Header />
         <Slider />
-        <Sidebar />
+        <div className="container">
+          <div>Este componente es para la sección de la izquierda</div>
+          <Sidebar />
+        </div>
         <MiComponente />
         <Peliculas />
       </section>
